@@ -9,5 +9,7 @@ public class Pomodoro extends AnAction {
     @Override
     public void actionPerformed(@NotNull AnActionEvent e) {
         JOptionPane.showMessageDialog(null, "Pomodoro Timer started!");
+        var pomodoroTimer = new PomodoroTimer();
+
     }
 }
