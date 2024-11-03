@@ -27,4 +27,10 @@
     <extensions defaultExtensionNs="com.intellij">
 
     </extensions>
+    <actions>
+        <action id="org.example.pomodoroplugin.Pomodoro" class="org.example.pomodoroplugin.Pomodoro"
+                text="Pomodoro Timer" description="Pomodoro timer showbox">
+            <add-to-group group-id="ToolsMenu" anchor="last"/>
+        </action>
+    </actions>
 </idea-plugin>
